@@ -49,6 +49,10 @@ import DubaiPage from './pages/Cities and Classes page/DubaiPage';
 import OnDemand from './pages/Footer-pages/Newspages/OnDeman';
 import Announced from './pages/Footer-pages/Newspages/Announced';
 import Unveils from './pages/Footer-pages/Newspages/Unveils';
+import Valentines from './pages/Footer-pages/Newspages/Valentines';
+import Rangerover from './pages/Footer-pages/Newspages/Rangerover';
+import Limitededition from './pages/Footer-pages/Newspages/Limitededition';
+import Luxury from './pages/Footer-pages/Newspages/Luxury';
 
 function App() {
   return (
@@ -121,6 +125,12 @@ function App() {
   <Route path="/Footer/Newsroom/OnDemand" element={<OnDemand/>} />
     <Route path="/Footer/Newsroom/Announced" element={<Announced/>} />
     <Route path='/Footer/Newsroom/Unveils' element={<Unveils/>} />
+           
+    <Route path='/Footer/Newsroom/Valentine' element={<Valentines/>} />
+    <Route path='/Footer/Newsroom/Rangerover' element={<Rangerover/>} />
+    <Route path='/Footer/Newsroom/LimitedEdition' element={<Limitededition/>} />
+    <Route path='/Footer/Newsroom/Luxury' element={<Luxury/>} />
+
            
       </Routes>
 
